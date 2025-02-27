@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display:inline-block;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <form action="index.html" method="post">
+        <label for="name">Họ và tên:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="Ngày sinh">Ngày sinh:</label>
+        <input type="date" id="Ngày sinh" name="Ngày sinh"><br><br>
+        <label for="Giới tính">Giới tính:</label>
+        <input type="radio" id="Nam" name="Giới tính" value="Nam">
+        <label for="Nam">Nam</label>
+        <input type="radio" id="Nữ" name="Giới tính" value="Nữ">
+        <label for="Nữ">Nữ</label><br><br>
+        <label for="Số điện thoại">Số điện thoại:</label>
+        <input type="tel" id="Số điện thoại" name="Số điện thoại"><br><br>
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" name="Email"><br><br>
+        <label for="Tên Công ty" >Tên Công ty:</label>
+        <input type="text" id="Tên Công ty" name="Tên Công ty"><br><br>
+        <label for="Vai trò trong công ty">Vai trò trong công ty:</label>
+        <select id="Vai trò trong công ty" name="Vai trò trong công ty">
+            <option value="Nhân viên">Nhân viên</option>
+            <option value="Quản lý">Quản lý</option>
+            <option value="Giám đốc">Giám đốc</option>
+        </select><br><br>
+        <label for="Quy mô công ty">Quy mô công ty:</label>
+        <select id="Quy mô công ty" name="Quy mô công ty">
+            <option value="Dưới 10 người">Doanh nghiệp nhỏ</option>
+            <option value="Từ 10-20 người">Doanh nghiệp</option>
+            <option value="Trên 20 người">Doanh nghiệp lớn</option>
+        </select><br><br>
+        <label for="Ngành nghề công ty">Ngành nghề công ty:</label>
+        <input type="text" id="Ngành nghề công ty" name="Ngành nghề công ty"><br><br>
+        <label for="Lý do tham gia câu lạc bộ">Lý do tham gia câu lạc bộ:</label>
+        <textarea id="Lý do tham gia câu lạc bộ" name="Lý do tham gia câu lạc bộ" rows="2" cols="20" style="border-radius: 5px;"></textarea><br><br>
+        <label for="Kinh nghiệm lãnh đạo">Kinh nghiệm lãnh đạo:</label>
+        <textarea id="Kinh nghiệm lãnh đạo" name="Kinh nghiệm lãnh đạo" rows="2" cols="20" style="border-radius: 5px;"></textarea><br><br>
+        <label for="Mục tiêu khi tham gia câu lạc bộ">Mục tiêu khi tham gia câu lạc bộ:</label>
+        <textarea id="Mục tiêu khi tham gia câu lạc bộ" name="Mục tiêu khi tham gia câu lạc bộ" rows="2" cols="20" style="border-radius: 5px;"></textarea><br><br>
+        <label for="Chương trình sự kiện mong muốn tham gia">Chương trình sự kiện mong muốn tham gia:</label>
+        <input type="checkbox" id="Chương trình sự kiện mong muốn tham gia" name="Chương trình sự kiện mong muốn tham gia" value="Networking">
+        <label for="Networking">Networking</label>
+        <input type="checkbox" id="Chương trình sự kiện mong muốn tham gia" name="Chương trình sự kiện mong muốn tham gia" value="Workshop">
+        <label for="Workshop">Workshop</label>
+        <input type="checkbox" id="Chương trình sự kiện mong muốn tham gia" name="Chương trình sự kiện mong muốn tham gia" value="Hội thảo">
+        <label for="Hội thảo">Hội thảo</label><br><br>
+        <label for="Đăng ký nhận bản tin">Đăng ký nhận bản tin:</label>
+        <input type="checkbox" id="Đăng ký nhận bản tin" name="Đăng ký nhận bản tin" value="Có">
+        <label for="Có">Có</label>
+        <input type="submit" value="Đăng ký hội viên">
+    </form>
+</body>
+</html>
